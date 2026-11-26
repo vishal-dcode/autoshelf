@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in Shelf is not working as expected.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Shelf
+        2. ...
+    validations:
+      required: false
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox
+        - Edge
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Shelf version
+      description: Shown in your browser's extensions page.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: Please do not include personal data or anything you saved in Shelf.

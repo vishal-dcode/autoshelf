@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community page (roadmap and feedback form)
+    url: https://autoshelf.site/community
+    about: See what is being worked on and send feedback without a GitHub account.

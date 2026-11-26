@@ -1,0 +1,31 @@
+name: Feature request
+description: Tell us what would make Shelf better.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Shelf to do?
+      description: Describe the idea and the problem it solves for you.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle this today?
+    validations:
+      required: false
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox
+        - Edge
+        - Other
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: Please do not include personal data or anything you saved in Shelf.
